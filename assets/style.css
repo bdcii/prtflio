@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    background-color: #15171a;
+   color: whitesmoke;
+}
+.wrapper {
+    margin: 1em;
+}
+
+.header {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:lightyellow;
+}
+
+nav li{
+    display: inline;
+}
+
+a:link {
+    text-decoration: none;
+    color:lightyellow;
+    padding: 2em;
+    font-family:sans-serif;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.splash{
+margin: 1em;
+padding-top: 5em;
+padding-bottom:5em;
+}
+
+.name {
+    height: 1em;
+display: flex;  
+flex-direction: row;
+justify-content:center;
+align-items: center;
+padding-right: 3em;
+font-size: 80px;
+font-weight: 700;
+color: lightyellow;
+
+
+}
+
+.myTitle{
+    display: flex;
+justify-content: center;
+padding-left: 3em;
+align-items: start;
+font-size: 30px;
+font-style:italic;
+color:lightgray;
+
+}
+
+.bio {
+    width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 12em;
+padding-left: 12em;
+text-align: center;
+font-size: 21px;
+}
