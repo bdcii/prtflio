@@ -94,8 +94,17 @@ align-items: center;
     color:lightyellow;
 }
 
-.cardFont{
-    
+.contactHeader {
+    width: 100%;
+    justify-content:flex-start;
+    flex-direction: row;
+    padding-top: 3em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    align-items: start;
+    font-size: 30px;
+    font-style:italic;
+    color:lightyellow;
 }
 /* .card {
     padding: 1em;
